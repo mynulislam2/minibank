@@ -6,7 +6,7 @@ document.getElementById('DepositBtn').addEventListener("click",()=>{
  document.getElementById("Deposit").value=""
 const DepositSum= document.getElementById("preDeposit").innerText=preDeposit+newDeposit
 const preBalance= parseFloat(document.getElementById("Balance").innerText)
-const ulitmateBalance= document.getElementById("Balance").innerText=preBalance+DepositSum  
+const ulitmateBalance= document.getElementById("Balance").innerText=preBalance+newDeposit  
  }
 })
 
